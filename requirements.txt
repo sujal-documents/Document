@@ -4,4 +4,4 @@ python-magic==0.4.24
 Pillow==9.5.0
 PyMuPDF==1.21.1
 docx2txt==0.8
-pymongo[srv]==4.1.1
+pymongo[srv]==4.5.0

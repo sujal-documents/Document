@@ -13,7 +13,7 @@ import hashlib
 from gridfs import GridFS
 
 # MongoDB connection
-client = MongoClient("mongodb+srv://sujalpatel:6oTVqyaYwRukvBKC@cluster0.ctpna.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+client = MongoClient("mongodb+srv://sujalpatel:6oTVqyaYwRukvBKC@cluster0.ctpna.mongodb.net/?retryWrites=true&w=majority&tlsAllowInvalidCertificates=true")
 db = client.get_database('your_database_name')  # Replace 'your_database_name' with the actual database name
 
 # Initialize GridFS
